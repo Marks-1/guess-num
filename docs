@@ -1,0 +1,39 @@
+DOM
+// console.dir(document);
+console.log(document.all);
+console.log(document.URL);
+console.log(document.title);
+console.log(document.body);
+console.log(document.head);
+console.log(document.all[6]);
+document.all[6].textContent = 'Hello boy!';
+console.log(document.all[10]);
+document.all[10].textContent = 'Number guess game';
+console.log(document.forms);
+console.log(document.links);
+console.log(document.lastModified);
+// console.log(document.lastChild);
+// console.log(document.lastElementChild);
+// console.log(document.lastModified);
+
+
+const headd = document.querySelector('.message');
+console.log(headd);
+console.log(headd.tagName);
+
+headd.textContent = 'Hello Boyy!';
+headd.innerText = 'graind';
+
+
+const tagss = document.querySelector('.number');
+console.log(tagss);
+
+
+const para = document.getElementById('parag');
+console.log(para);
+
+para.textContent = 'Hello';
+console.log(para.textContent);
+
+para.innerHTML = `<h2>Hello World!</h2>`;
+document.getElementById('hello').innerHTML = `<p>lorem ipsum cannot be used here at all</p>`;
